@@ -44,7 +44,7 @@ class TicTacToe
   end
 
   def turn
-    user_input = input_to_index(gets.chomp
+    user_input = input_to_index(gets.chomp)
   end
 
 end
