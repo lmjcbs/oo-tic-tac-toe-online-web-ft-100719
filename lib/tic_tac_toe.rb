@@ -49,8 +49,8 @@ class TicTacToe
     until valid_move?(user_input) do
       user_input = input_to_index(gets.chomp)
     end
-      @board[user_input] = current_player
-      display_board
+    @board[user_input] = current_player
+    display_board
 
     end
   end
