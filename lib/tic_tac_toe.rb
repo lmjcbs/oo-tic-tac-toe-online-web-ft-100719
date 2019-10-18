@@ -51,7 +51,6 @@ class TicTacToe
     end
     @board[user_input] = current_player
     display_board
-
     end
   end
 
