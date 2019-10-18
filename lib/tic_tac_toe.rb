@@ -57,7 +57,7 @@ class TicTacToe
       if combo.all? { |index| @board[index] == "X" }
         return combo
       elsif combo.all? { |index| @board[index] == "O" }
-        combo
+        return combo
       end
     end
     false
