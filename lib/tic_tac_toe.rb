@@ -36,7 +36,7 @@ class TicTacToe
   end
 
   def turn_count
-    @board.map { |e, i| position_taken?(i)  }
+    @board.map { |e, i| position_taken?(i)  }.size
   end
 
 
