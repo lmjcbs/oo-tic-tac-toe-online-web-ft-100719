@@ -20,7 +20,7 @@ class TicTacToe
   end
 
   def input_to_index
-    gets.chomp
+    user_input = gets.chomp
   end
 
 
