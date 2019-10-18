@@ -85,6 +85,8 @@ class TicTacToe
     until over?
       turn
     end
+    if won?
+      winner
   end
 
 end
