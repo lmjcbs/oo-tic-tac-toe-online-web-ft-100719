@@ -75,5 +75,6 @@ class TicTacToe
     if won? || draw?
       true
     end
+  end
 
 end
