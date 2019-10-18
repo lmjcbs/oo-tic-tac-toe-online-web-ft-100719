@@ -73,8 +73,6 @@ class TicTacToe
 
   def over?
     won? || draw? ? true : false
-      true
-    end
   end
 
 end
