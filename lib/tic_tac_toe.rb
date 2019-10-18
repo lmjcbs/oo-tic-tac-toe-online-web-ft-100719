@@ -39,6 +39,9 @@ class TicTacToe
     @board.each_with_index.select { |e, i| position_taken?(i) }.size
   end
 
+  def current_player
+
+  end
 
 
 end
