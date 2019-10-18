@@ -32,10 +32,10 @@ class TicTacToe
   end
 
   def valid_move?(index)
-    binding.pry
+    #binding.pry
     position_taken?(index) && index.between?(0, 8) ? true : false
   end
-  
+
 
 
 end
