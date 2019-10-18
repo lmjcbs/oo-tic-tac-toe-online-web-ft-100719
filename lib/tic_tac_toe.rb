@@ -46,9 +46,10 @@ class TicTacToe
   def turn
     puts "Please select a number between 1 and 9."
     user_input = input_to_index(gets.chomp)
-    if valid_move?(user_input)
+    until valid_move?(user_input)
       @board[user_input] = current_player
       display_board
+
     end
   end
 
