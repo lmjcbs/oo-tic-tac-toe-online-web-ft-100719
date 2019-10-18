@@ -36,7 +36,7 @@ class TicTacToe
   end
 
   def turn_count
-    @board.each_with_index { |position| }
+    @board.each_with_index { |position, i| }
   end
 
 
